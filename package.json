@@ -1,0 +1,12 @@
+{
+  "name": "meu-projeto",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace=apps/frontend",
+    "dev:backend": "npm run start:dev --workspace=apps/backend",
+    "dev": "npm run dev --workspace=apps/frontend & npm run start:dev --workspace=apps/backend"
+  }
+}
