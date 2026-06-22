@@ -156,7 +156,7 @@ npm run prisma:seed
 
 **Credenciais padrão:**
 
-* Email: `inaciorodrigues@gmail.com`
+* Email: `Tatiano@gmail.com`
 * Senha: `123456789`
 
 ---
